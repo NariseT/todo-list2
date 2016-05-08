@@ -1,0 +1,40 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "sourceMap": true,
+        "declaration": true,
+        "module": "commonjs",
+        "jsx": "react",
+        "noImplicitAny": false,
+        "noEmitOnError": true,
+        "removeComments": true,
+        "experimentalDecorators": true
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "./typings/main.d.ts",
+        "./src/*.tsx",
+        "./src/**/*.ts",
+        "./src/**/*.tsx"
+    ],
+    "files": [
+        "./typings/main.d.ts",
+        "./src/index.tsx",
+        "./src/actions/index.ts",
+        "./src/constants/index.ts",
+        "./src/containers/FilterLink.ts",
+        "./src/containers/VisibleTodoList.ts",
+        "./src/reducers/index.ts",
+        "./src/reducers/todos.ts",
+        "./src/reducers/visibilityFilter.ts",
+        "./src/components/App.tsx",
+        "./src/components/Footer.tsx",
+        "./src/components/Link.tsx",
+        "./src/components/Todo.tsx",
+        "./src/components/TodoList.tsx",
+        "./src/containers/AddTodo.tsx"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}
